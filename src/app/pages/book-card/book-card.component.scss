@@ -1,0 +1,27 @@
+.card {
+  cursor: pointer;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+  object-position: center center;
+  background: whitesmoke;
+  overflow: hidden;
+}
+
+.book-title {
+  font-size: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+
+.book-author {
+  font-size: 0.9em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-height: 30px;
+}

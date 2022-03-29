@@ -1,0 +1,27 @@
+.search-page-wrap {
+  display: flex;
+  flex-direction: column;
+
+  .search-results {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .pagination {
+    justify-content: center !important;
+    margin: 1rem 0;
+
+    .page-link {
+      background: transparent;
+      color: #fff;
+    }
+
+    .page-item.active .page-link {
+      background: white;
+      color: transparent;
+      border-color: #fff;
+      color: black;
+    }
+  }
+}
+

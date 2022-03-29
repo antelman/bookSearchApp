@@ -1,0 +1,25 @@
+<div class="card">
+  <div class="card-header overflow-hidden">
+    <img src="{{book?.volumeInfo?.imageLinks?.thumbnail || 'https://via.placeholder.com/500?text=No+Image'}}" class="card-img-top"/>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col">
+        <div class="book-title" #bookTitle [tooltip]="bookTitleTemplate" placement="bottom" [adaptivePosition]="true" [isDisabled]="checkOverflow(bookTitle)">
+          {{book?.volumeInfo?.title}}
+          <ng-template #bookTitleTemplate>{{book?.volumeInfo?.title}}</ng-template>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="book-author" #bookAuthor [tooltip]="authorTooltipTemplate" placement="bottom" [adaptivePosition]="true" [isDisabled]="checkOverflow(bookAuthor)">
+          <span *ngFor="let author of book?.volumeInfo.authors; let i = index">
+            {{author}}<span *ngIf="book?.volumeInfo.authors?.length > 1 && i + 1 !== book?.volumeInfo.authors?.length">, </span>
+          </span>
+          <ng-template #authorTooltipTemplate>{{book?.volumeInfo.authors?.length > 1 ? 'Authors' : 'Author'}}: {{bookAuthor.innerText}}</ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

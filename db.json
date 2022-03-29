@@ -1,0 +1,297 @@
+{
+  "wishlist": [
+    {
+      "kind": "books#volume",
+      "id": "3rkEwgEACAAJ",
+      "etag": "bvHSGxJ8+5I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3rkEwgEACAAJ",
+      "volumeInfo": {
+        "title": "Damned",
+        "authors": [
+          "Brian Azzarello"
+        ],
+        "publisher": "DC Black Label",
+        "publishedDate": "2019",
+        "description": "With John Constantine's \"help,\" Batman will delve into the sordid underbelly of Gotham, racing toward the mind-blowing truth of who murdered The Joker. From two of comics' greatest modern creators, Brian Azzarello and Lee Bermejo.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1401291406"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781401291402"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "averageRating": 2,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3rkEwgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3rkEwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=3rkEwgEACAAJ&dq=batman&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=3rkEwgEACAAJ&dq=batman&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Damned.html?hl=&id=3rkEwgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3rkEwgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With John Constantine&#39;s &quot;help,&quot; Batman will delve into the sordid underbelly of Gotham, racing toward the mind-blowing truth of who murdered The Joker. From two of comics&#39; greatest modern creators, Brian Azzarello and Lee Bermejo."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "RxeAmAEACAAJ",
+      "etag": "TxyCox70ixs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RxeAmAEACAAJ",
+      "volumeInfo": {
+        "title": "Becoming Batman",
+        "subtitle": "The Possibility of a Superhero",
+        "authors": [
+          "E. Paul Zehr"
+        ],
+        "publisher": "Johns Hopkins University Press",
+        "publishedDate": "2008-11-07",
+        "description": "Battling bad guys. High-tech hideouts. The gratitude of the masses. Who at some point in their life hasn't dreamed of being a superhero? Impossible, right? Or is it? Possessing no supernatural powers, Batman is the most realistic of all the superheroes. His feats are achieved through rigorous training and mental discipline, and with the aid of fantastic gadgets. Drawing on his training as a neuroscientist, kinesiologist, and martial artist, E. Paul Zehr explores the question: Could a mortal ever become Batman? Zehr discusses the physical training necessary to maintain bad-guy-fighting readiness while relating the science underlying this process, from strength conditioning to the cognitive changes a person would endure in undertaking such a regimen. In probing what a real-life Batman could achieve, Zehr considers the level of punishment a consummately fit and trained person could handle, how hard and fast such a person could punch and kick, and the number of adversaries that individual could dispatch. He also tells us what it would be like to fight while wearing a batsuit and the amount of food we'd need to consume each day to maintain vigilance as Gotham City's guardian. A fun foray of escapism grounded in sound science, Becoming Batman provides the background for attaining the realizable—though extreme—level of human performance that would allow you to be a superhero.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0801890632"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780801890635"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Science"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RxeAmAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RxeAmAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RxeAmAEACAAJ&dq=batman&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RxeAmAEACAAJ&dq=batman&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Becoming_Batman.html?hl=&id=RxeAmAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RxeAmAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A fun foray of escapism grounded in sound science, Becoming Batman provides the background for attaining the realizable—though extreme—level of human performance that would allow you to be a superhero."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DYXuzgEACAAJ",
+      "etag": "BiGLAU+2IlI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DYXuzgEACAAJ",
+      "volumeInfo": {
+        "title": "The Batman Box Set",
+        "authors": [
+          "Jeph Loeb"
+        ],
+        "publishedDate": "2022-03-22",
+        "description": "He is vengeance. He is the night. He is Batman. One of the most iconic fictional characters in the world, Batman has dedicated his life to an endless crusade, a war on all criminals in the name of his murdered parents, who were taken from him when he was just a child. Since that tragic night, he has trained his body and mind to near physical perfection to be a self-made Super Hero. He's developed an arsenal of technology that would put most armies to shame. And he's assembled teams of his fellow DC Super Heroes, like the Justice League, the Outsiders and Batman, Incorporated. This box set, collecting Batman: The Long Halloween, Batman: Ego and Other Tails, and Batman: Year One, is the perfect collection of BATMAN legends for any fan!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1779514298"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781779514295"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 728,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DYXuzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DYXuzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=DYXuzgEACAAJ&dq=batman&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=DYXuzgEACAAJ&dq=batman&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Batman_Box_Set.html?hl=&id=DYXuzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DYXuzgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This box set, collecting Batman: The Long Halloween, Batman: Ego and Other Tails, and Batman: Year One, is the perfect collection of BATMAN legends for any fan!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KAUIuAAACAAJ",
+      "etag": "WxSF7zYL5to",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KAUIuAAACAAJ",
+      "volumeInfo": {
+        "title": "The Black Mirror",
+        "authors": [
+          "Scott Snyder"
+        ],
+        "publisher": "Dc Comics",
+        "publishedDate": "2013-03-05",
+        "description": "Commissioner Gordon's son returns to Gotham City claiming to be cured of his psychopathy.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1401232078"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781401232078"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 304,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KAUIuAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KAUIuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=KAUIuAAACAAJ&dq=batman&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=KAUIuAAACAAJ&dq=batman&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Black_Mirror.html?hl=&id=KAUIuAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KAUIuAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Commissioner Gordon&#39;s son returns to Gotham City claiming to be cured of his psychopathy."
+      }
+    }
+  ]
+}

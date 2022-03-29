@@ -1,0 +1,28 @@
+<div class="modal-body">
+  <alert [type]="alert.type" [dismissOnTimeout]="3000" *ngIf="showAlert" (onClosed)="showAlert = false">
+    <strong>{{alert.title}}</strong> {{alert.content}}
+  </alert>
+  <button type="button" class="close-modal-btn" (click)="bsModalRef?.hide()">
+    <i class="fas fa-times"></i>
+  </button>
+  <div class="row">
+    <div class="col-auto">
+      <img src="{{book?.volumeInfo?.imageLinks?.thumbnail || 'https://via.placeholder.com/150?text=No+Image'}}"/>
+    </div>
+    <div class="col">
+      <h5 class="modal-title fw-bold">{{book?.volumeInfo?.title}}</h5>
+      <div class="text-muted fw-bold">
+        <small>
+          <span *ngFor="let author of book?.volumeInfo.authors; let i = index">{{author}}<span *ngIf="book?.volumeInfo.authors?.length > 1 && i + 1 !== book?.volumeInfo.authors?.length">, </span></span>
+        </small>
+      </div>
+      <p [innerHtml]="book?.searchInfo?.textSnippet || 'No Description'"></p>
+    </div>
+  </div>
+
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-sm btn-outline-primary" (click)="addToWishlist(book)"><i class="far fa-bookmark align-middle me-1"></i> Add to wishlist</button>
+</div>
+
+

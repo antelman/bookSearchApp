@@ -1,0 +1,27 @@
+<div class="d-flex h-100 align-items-center justify-content-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10 col-xs-12">
+        <div class="card-wrapper">
+          <div class="c-header py-3">
+            <h4 class="m-0">Welcome To</h4>
+            <h2 class="fw-bold">BookSearch APP</h2>
+          </div>
+          <div class="card-content py-3">
+            <form [formGroup]="loginForm" novalidate (ngSubmit)="onSubmit()">
+              <div class="my-4">
+                <input class="form-control" formControlName="bookAppUser" type="text" id="bookAppUser" placeholder="Enter your username" autocomplete="off"/>
+                <div *ngIf="loginForm.controls['bookAppUser'].invalid && (loginForm.controls['bookAppUser'].dirty || loginForm.controls['bookAppUser'].touched)" class="ps-1 form-text text-danger">
+                  <div *ngIf="loginForm.controls['bookAppUser']?.errors?.['required']">username is required.</div>
+                </div>
+              </div>
+              <button type="submit" [disabled]="loginForm.pristine || loginForm.invalid" class="btn btn-primary mb-4">Let's Read</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

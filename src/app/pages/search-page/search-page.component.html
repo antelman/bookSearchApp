@@ -1,0 +1,27 @@
+
+<div class="search-page-wrap h-100">
+  <div class="searchbar">
+    <app-book-searchbar (searchResult)="updateResults($event)" (showLoader)="showLoader($event)"></app-book-searchbar>
+  </div>
+  <div class="search-results">
+    <app-loading-spinner *ngIf="loading"></app-loading-spinner>
+    <div class="container-fluid" [hidden]="loading">
+      <div class="row">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-10 my-3" *ngFor="let book of booksList | async" (click)="openModal(book)">
+          <app-book-card [book]="book"></app-book-card>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row" *ngIf="booksList | async">
+      <div class="col-xs-12 col-12">
+        <pagination [totalItems]="totalBooks" [ngModel]="page" (pageChanged)="show($event)" [maxSize]="5" [align]="false"></pagination>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

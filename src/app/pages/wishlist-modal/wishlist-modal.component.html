@@ -1,0 +1,35 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left fw-bold">Books Wishlist</h4>
+  <button type="button" class="btn-close close pull-right" (click)="bsModalRef?.hide()" aria-label="Close">
+    <span aria-hidden="true" class="visually-hidden">&times;</span>
+  </button>
+</div>
+
+  <div class="modal-body">
+    <alert [type]="alert.type" [dismissOnTimeout]="3000" *ngIf="showAlert" (onClosed)="showAlert = false">
+      <strong>{{alert.title}}</strong> {{alert.content}}
+    </alert>
+    <div class="row mb-3 pb-3 border-bottom" *ngFor="let book of booksList; let i = index;">
+      <div class="col-lg-1 col-3">
+        <img src="{{book?.volumeInfo?.imageLinks?.thumbnail || 'https://via.placeholder.com/150?text=No+Image'}}" class="w-100"/>
+      </div>
+      <div class="col align-self-center">
+        <h5 class="modal-title fw-bold">{{book?.volumeInfo?.title}}</h5>
+        <div class="text-muted fw-bold">
+          <small>
+            <span *ngFor="let author of book?.volumeInfo?.authors; let i = index">{{author}}<span *ngIf="book?.volumeInfo.authors?.length > 1 && i + 1 !== book?.volumeInfo.authors?.length">, </span></span>
+          </small>
+        </div>
+      </div>
+      <div class="col-2 align-self-center">
+        <button type="button" class="btn btn-sm btn-outline-danger" (click)="removeFromWishlist(book.id, i)"><i class="fas fa-times me-1"></i> Remove</button>
+      </div>
+    </div>
+    <div *ngIf="!booksList?.length">
+      Wishlist is empty, add some books
+    </div>
+  </div>
+
+
+
+

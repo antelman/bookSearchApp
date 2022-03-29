@@ -1,0 +1,20 @@
+p {
+  color: #797979;
+  font-weight: 300;
+}
+
+img {
+  box-shadow: 0 0 10px -5px black;
+}
+
+.close-modal-btn {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+}
